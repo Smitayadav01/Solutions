@@ -1,0 +1,190 @@
+export const SERVICES = [
+  {
+    slug: "ai-solutions", key: "ai", icon: "ai", title: "AI Solutions",
+    short: "Build intelligent systems that improve customer service, reduce repetitive work, and help businesses make better use of their data.",
+    items: ["AI Chatbots for Websites & WhatsApp","AI-Powered Customer Support","AI Resume/CV Screening","AI Document Processing","AI Content Generation","Business Automation Using AI","Custom AI Integrations"],
+    cta: "Explore AI Solutions",
+    heroTitle: "Practical AI that takes work off your team's plate",
+    heroText: "We build AI chatbots, assistants, document processing and automation that plug into the tools you already use — designed around real tasks, not hype.",
+    problems: ["Your team answers the same customer questions every day","Documents, invoices and resumes are read and re-typed by hand","Enquiries on WhatsApp and your website go unanswered after hours","You have data but no easy way to act on it"],
+    offer: [
+      ["Website AI Chatbots","Answer visitor questions, capture leads and hand over to your team when needed."],
+      ["WhatsApp AI Assistants","Respond to customers on the channel they already use, around the clock."],
+      ["Customer Support Automation","Triage, draft replies and route tickets so people handle only what needs a person."],
+      ["Resume Screening","Read and shortlist CVs against job requirements, with a recruiter in control."],
+      ["Document Extraction","Pull structured data from PDFs, forms, invoices and scanned documents."],
+      ["AI Content Generation","Draft product descriptions, posts, emails and reports in your brand voice."],
+      ["Workflow Automation","Connect AI to your forms, sheets, CRM and email to finish tasks end to end."],
+      ["Custom AI Integrations","Add LLM capabilities to your existing software through secure APIs."],
+    ],
+    flowTitle: "How AI fits into your business",
+    flow: [["Business Data","Messages, documents, forms, records"],["AI Processing","Understand, classify, extract, generate"],["Automation","Rules and workflows move the result"],["Business Action","Reply sent, record updated, team alerted"]],
+    benefits: [["clock","Time back for your team","Repetitive reading, typing and replying is handled automatically."],["chat","Faster responses","Customers get answers in seconds, including evenings and weekends."],["shield","Human in control","AI suggests and acts within limits you set, with review where it matters."]],
+    tech: ["Generative AI","AI APIs","LLM integrations","AI automation","WhatsApp","Google Services","Node.js","REST APIs"],
+    faq: [
+      ["Do we need our own data or technical team to start?","No. We start from your current workflow and tools, and we handle the technical setup, integration and testing."],
+      ["Can the chatbot answer questions about our specific business?","Yes. We configure it with your own content — services, policies, FAQs and documents — so answers reflect your business."],
+      ["Is our data safe?","We design integrations so data is only shared where required, use secure APIs, and agree on data handling with you before building."],
+      ["What if the AI gives a wrong answer?","We set clear boundaries, add fallbacks to a human, and test with real examples before launch. We keep improving it after launch."],
+    ],
+  },
+  {
+    slug: "software-development", key: "software", icon: "code", title: "Software Development",
+    short: "Design and develop reliable software tailored to your company's specific workflow and requirements.",
+    items: ["Website Development","Web Applications","Mobile Applications","CRM & HRMS Software","Recruitment Software","Custom Business Software","API & Third-Party Integrations"],
+    cta: "Explore Software Development",
+    heroTitle: "Custom software built around how your business actually works",
+    heroText: "Websites, web applications, mobile apps, CRM and HRMS systems — planned with you, built to be reliable, and ready to grow.",
+    problems: ["Off-the-shelf tools don't fit your process, so work happens in spreadsheets","Information lives in too many disconnected apps","Your website doesn't reflect the business or bring in enquiries","Manual steps slow down every order, hire or approval"],
+    offer: [
+      ["Website Development","Fast, SEO-friendly business websites that turn visitors into enquiries."],
+      ["Web Applications","Secure, browser-based applications for customers, partners or internal teams."],
+      ["Mobile Applications","Apps for Android and iOS that connect to your existing systems."],
+      ["CRM & HRMS Software","Manage customers, leads, employees, attendance and approvals in one place."],
+      ["Recruitment Software","Job portals, candidate databases and recruiter tools built for your process."],
+      ["API & Integrations","Connect payment gateways, WhatsApp, Google services and third-party platforms."],
+    ],
+    flowTitle: "What a typical build looks like",
+    flow: [["Requirements","Workflow mapping and scope"],["Design","User flows and interface"],["Development","Frontend, backend, database"],["Testing","Quality checks with your team"],["Launch","Deployment and handover"]],
+    benefits: [["target","Fits your workflow","Software shaped around your process instead of forcing a new one."],["layers","Built to scale","Clean architecture that supports new features and more users."],["puzzle","Connected systems","Integrations remove double entry between your tools."]],
+    tech: ["React","Next.js","JavaScript","HTML","CSS","Tailwind CSS","Node.js","Express.js","REST APIs","MongoDB","SQL"],
+    faq: [
+      ["How long does a project take?","It depends on scope. After the planning stage we share a clear timeline with milestones so you know what is delivered when."],
+      ["Do we own the code?","We agree on ownership up front. For custom projects built for you, the code and data are yours."],
+      ["Can you work on our existing software?","Yes. We can review what you have, fix issues, add features or integrate it with new systems."],
+      ["Do you provide support after launch?","Yes. We offer ongoing maintenance, improvements and technical support."],
+    ],
+  },
+  {
+    slug: "recruitment-technology", key: "recruit", icon: "people", title: "Recruitment Technology", featured: true,
+    short: "Build smarter recruitment workflows using automation, AI, and purpose-built recruitment technology.",
+    items: ["AI Resume Parser","Candidate-Job Matching","Recruiter Dashboard","Automated Candidate Screening","WhatsApp Recruitment Automation","Interview Scheduling","Recruitment CRM","Job Portal Development"],
+    cta: "Explore Recruitment Technology",
+    heroTitle: "Technology for recruitment businesses that want to hire faster",
+    heroText: "From resume parsing and AI screening to recruiter dashboards and WhatsApp automation, we build recruitment platforms and integrations around your hiring process.",
+    problems: ["Recruiters spend hours reading resumes that don't match","Candidate data is scattered across email, WhatsApp and spreadsheets","Interview scheduling takes endless back-and-forth","There's no single view of where each candidate stands"],
+    offer: [
+      ["AI Resume Parser","Turn resumes in any format into clean, searchable candidate profiles."],
+      ["Candidate-Job Matching","Rank candidates against job requirements so recruiters start with the best fits."],
+      ["Recruiter Dashboard","See every job, candidate and pipeline stage in one place."],
+      ["Automated Screening","Ask screening questions and shortlist automatically, with recruiter review."],
+      ["WhatsApp Recruitment Automation","Share jobs, collect resumes and send updates on WhatsApp."],
+      ["Interview Scheduling","Let candidates pick slots and send reminders automatically."],
+      ["Recruitment CRM","Manage clients, requirements, submissions and placements."],
+      ["Job Portal Development","Your own branded job portal with applications flowing into your system."],
+    ],
+    flowTitle: "One connected hiring pipeline",
+    flow: [["Candidates","Portal, WhatsApp, email"],["Resume Processing","Parsed into profiles"],["AI Screening","Questions and scoring"],["Matching","Ranked against jobs"],["Recruiter Dashboard","Review and shortlist"],["Interview","Scheduled automatically"],["Hiring","Offer and placement"]],
+    benefits: [["clock","Less manual screening","Recruiters spend time on conversations, not on sorting resumes."],["chart","Full pipeline visibility","Know where every candidate and requirement stands."],["puzzle","Built for your process","Custom platforms and integrations, not a one-size-fits-all ATS."]],
+    tech: ["Generative AI","LLM integrations","React","Node.js","MongoDB","WhatsApp","Google Services","REST APIs"],
+    faq: [
+      ["Can you integrate with the tools we already use?","Yes. We can connect to your existing job boards, email, WhatsApp, calendars and spreadsheets, or migrate data into a new system."],
+      ["Does AI make hiring decisions?","No. AI helps parse, score and shortlist; recruiters review and make the decisions."],
+      ["Can you build a job portal with our branding?","Yes. We build branded job portals where applications flow directly into your recruiter dashboard."],
+      ["Are you building ready-made recruitment products?","We build custom recruitment platforms today, and this page will feature our own recruitment products as they launch."],
+    ],
+  },
+  {
+    slug: "digital-business-solutions", key: "digital", icon: "grid", title: "Digital Business Solutions",
+    short: "Help businesses establish and improve their digital infrastructure while reducing manual work.",
+    items: ["Website & Hosting Setup","Domain & Business Email Setup","Google Business Profile","Digital Forms","Payment Gateway Integration","Office Workflow Automation","Data Dashboards & Reporting"],
+    cta: "Explore Digital Solutions",
+    heroTitle: "The digital foundations every growing business needs",
+    heroText: "Domains, business email, websites, payments, forms and dashboards — set up properly so your business looks professional and runs with less paperwork.",
+    problems: ["You're still using a personal email address for business","Customers can't find you on Google or pay you online","Forms and approvals happen on paper","Reports take hours to put together each month"],
+    offer: [
+      ["Website & Hosting Setup","A professional website on reliable hosting, set up and maintained."],
+      ["Domain & Business Email","Your own domain and professional email addresses for your team."],
+      ["Google Business Profile","Get found on Google Search and Maps with an accurate business profile."],
+      ["Digital Forms","Replace paper forms with online forms that feed straight into your records."],
+      ["Payment Gateway Integration","Accept online payments on your website, app or invoices."],
+      ["Workflow Automation & Dashboards","Automate routine office tasks and see your numbers in live dashboards."],
+    ],
+    flowTitle: "From setup to smooth operations",
+    flow: [["Audit","What you have today"],["Setup","Domain, email, website, profiles"],["Digitise","Forms, payments, records"],["Automate","Routine tasks and reports"]],
+    benefits: [["shield","A professional presence","Your own domain, email and website build trust with customers."],["bolt","Less paperwork","Digital forms and automation cut manual work."],["chart","Clearer decisions","Dashboards put your key numbers in one place."]],
+    tech: ["Hosting","Domain & Email","Cloud platforms","Google Services","Payment Gateways","WhatsApp","Third-Party APIs"],
+    faq: [
+      ["We're a small business. Is this for us?","Yes. These services are designed for small and growing businesses that want a professional setup without a large IT team."],
+      ["Can you move our existing website or email?","Yes. We can migrate existing websites, domains and email with minimal disruption."],
+      ["Which payment gateways do you work with?","We integrate commonly used payment gateways and choose the right one based on your business and customers."],
+      ["Will you train our team?","Yes. We walk your team through the new setup and share simple guides."],
+    ],
+  },
+];
+
+export const WHY = [
+  ["target","Business-Focused Approach","We focus on solving business problems, not just delivering technology."],
+  ["puzzle","Custom Solutions","Every solution is designed around the client's workflow and requirements."],
+  ["ai","AI & Automation Ready","We help businesses use AI and automation where it can create measurable value."],
+  ["layers","End-to-End Development","From planning and development to deployment and integrations, we support the complete digital journey."],
+  ["chart","Scalable Technology","Build solutions that can grow as your business grows."],
+  ["hand","Long-Term Technology Partner","We aim to build long-term relationships instead of simply delivering one-time projects."],
+];
+
+export const STEPS = [
+  ["Understand","We understand your business, workflow, challenges, and goals."],
+  ["Plan","We identify the right technology and create a practical solution strategy."],
+  ["Build","Our team designs, develops, integrates, and tests the solution."],
+  ["Launch & Support","We deploy the solution and provide ongoing improvements and technical support."],
+];
+
+export const INDUSTRIES = [
+  ["Recruitment & Staffing","Job portals, screening and recruiter tools."],
+  ["Startups","MVPs, web apps and fast iteration."],
+  ["Small & Medium Businesses","Websites, CRM and everyday automation."],
+  ["Professional Services","Client portals, forms and document workflows."],
+  ["Education","Enquiry management, portals and chatbots."],
+  ["Retail","Online payments, inventory and customer messaging."],
+  ["Healthcare","Appointments, records and patient communication."],
+  ["Real Estate","Lead capture, listings and follow-up automation."],
+  ["Corporate Businesses","Internal tools, HRMS and system integrations."],
+];
+
+export const PRODUCTS = [
+  ["Recruitment Platforms","Job portals, recruitment CRMs, candidate management systems, and automated hiring workflows.","recruitment-technology"],
+  ["Business Management Systems","Custom CRM, HRMS, dashboards, internal tools, and workflow management systems.","software-development"],
+  ["AI-Powered Business Tools","Chatbots, document processing, resume parsing, content automation, and AI integrations.","ai-solutions"],
+];
+
+/* Replace these placeholders with real projects when ready. Leave outcome honest. */
+export const CASES = [
+  { name: "Real-Time Chat Application", industry: "Communication",
+    problem: "Teams and communities need to talk instantly, without refreshing the page or waiting for messages to load.",
+    solution: "A web chat application where messages appear instantly for everyone in the conversation, with user accounts and saved chat history.",
+    tech: "React, Node.js, WebSocket, MongoDB",
+    outcome: "Messages are delivered in real time through a persistent WebSocket connection, and conversations are stored so users can pick up where they left off." },
+  { name: "Recruitment Website", industry: "Recruitment & Staffing",
+    problem: "Job openings and candidate applications were hard to manage across separate channels.",
+    solution: "A recruitment website where jobs are published, candidates apply online, and applications are collected in one place for review.",
+    tech: "React, Node.js, MongoDB",
+    outcome: "Job listings and candidate applications are managed from a single platform instead of scattered emails and messages." },
+  { name: "Property Listing Platform", industry: "Real Estate",
+    problem: "Buyers and tenants find it slow to shortlist properties and reach the right person for details.",
+    solution: "A property platform where agents list properties, and visitors can browse listings, save favourites to a wishlist, and contact the owner or agent about a property.",
+    tech: "React, Node.js, MongoDB",
+    outcome: "Visitors can shortlist properties and send enquiries directly from each listing, so agents receive property-specific leads." },
+  { name: "Portfolio Management & Learning Platform", industry: "Fintech",
+    problem: "Investors often track their holdings in one place and learn about investing somewhere else.",
+    solution: "A fintech web platform that brings portfolio management and investment courses together, so users can track their portfolio and learn in the same place.",
+    tech: "React, Node.js, MongoDB",
+    outcome: "Portfolio tracking and educational courses are available from a single account." },
+  { name: "Wedding Management Website", industry: "Events & Weddings",
+    problem: "Planning a wedding involves many details, vendors and dates that are hard to keep organised.",
+    solution: "A wedding management website that helps organise wedding planning and services in one place.",
+    tech: "React, Node.js, MongoDB",
+    outcome: "Wedding planning information and services are managed through one website instead of calls and paper notes." },
+];
+
+export const TECH = [
+  ["Frontend",["React","Next.js","HTML","CSS","JavaScript","Tailwind CSS"]],
+  ["Backend",["Node.js","Express.js","REST APIs"]],
+  ["Database",["MongoDB","SQL"]],
+  ["AI",["Generative AI","AI APIs","LLM integrations","AI automation"]],
+  ["Cloud & Deployment",["Cloud platforms","Hosting","Domain & Email","CI/CD"]],
+  ["Integrations",["WhatsApp","Payment Gateways","Google Services","Third-Party APIs"]],
+];
+
+export const SERVICE_OPTIONS = ["AI Solutions","Software Development","Recruitment Technology","Digital Business Solutions","Website Development","Business Automation","Other"];
+export const BUDGETS = ["Not sure yet","Under ₹50,000","₹50,000 – ₹2,00,000","₹2,00,000 – ₹5,00,000","Above ₹5,00,000"];
+
