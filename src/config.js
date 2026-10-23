@@ -17,7 +17,7 @@ export const CONFIG = {
   // Where the contact form sends enquiries (serverless function in /api)
   formEndpoint: "/api/contact",
 
-  social: { linkedin: "#", instagram: "https://www.instagram.com/anitasolutions.in?vrfl=OGVqbzIzZnU2bjQy", github: "#" },
+  social: { instagram: "https://www.instagram.com/anitasolutions.in?vrfl=OGVqbzIzZnU2bjQy" },
 };
 
 export const waLink = (number, text = "Hi Anita Solutions, I'd like to discuss a project.") =>
