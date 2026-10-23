@@ -6,7 +6,7 @@ export const CONFIG = {
 
   // Public email shown on the website. Leave "" to hide the email card.
   // (The address that RECEIVES form enquiries is set in Vercel as CONTACT_TO.)
-  email: "anitasolutions.tech@gmail.com",
+  email: "info@anitasoultions.in",
 
   // WhatsApp / phone numbers: country code + number, digits only
   phones: [
